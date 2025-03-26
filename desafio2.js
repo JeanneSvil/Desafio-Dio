@@ -1,5 +1,8 @@
+let saldoVitorias = janelaDeStatus()
+let nivel = rackeadas(saldoVitorias)
+
 function janelaDeStatus(){
-  let vitorias = 500
+  let vitorias = 55
   let derrotas = 5
   let saldoVitorias = vitorias - derrotas
   return saldoVitorias
@@ -31,8 +34,5 @@ function rackeadas(saldoVitorias){
   }
   return nivel
 }
-
-let saldoVitorias = janelaDeStatus()
-let nivel = rackeadas(saldoVitorias)
 
 console.log(`O Herói tem de saldo de ${saldoVitorias} está no nível ${nivel}`)
